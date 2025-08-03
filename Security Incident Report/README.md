@@ -33,7 +33,7 @@ Your job is to document the incident in detail, including identifying the networ
 
 <h2>Log</h2>
 
-- [tcpdump Traffic Log]( )
+- [tcpdump Traffic Log](https://github.com/norahberger/Incident-reports/blob/e73b7e61aceea13082246d3eae68514fe64f5b39/Security%20Incident%20Report/tcpdump%20traffic%20log.pdf)
 
 <h2>Report</h2>
 
