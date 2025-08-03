@@ -26,3 +26,7 @@ Now that you have captured data packets using a network analyzer tool, it is you
 As an analyst, you can inspect network traffic and network data to determine what is causing network-related issues during cybersecurity incidents. Later in this course, you will demonstrate how to manage and resolve incidents. For now, you only need to analyze the situation. 
 
 This event, in the meantime, is being handled by security engineers after you and other analysts have reported the issue to your direct supervisor. 
+
+<h2>Incident Report</h2>
+
+
