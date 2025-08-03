@@ -11,19 +11,19 @@ To address the incident, you create a sandbox environment to observe the suspici
 
 The logs show the following process:
 
-The browser initiates a DNS request: It requests the IP address of the yummyrecipesforme.com URL from the DNS server.
+1. The browser initiates a DNS request: It requests the IP address of the yummyrecipesforme.com URL from the DNS server.
 
-The DNS replies with the correct IP address. 
+2. The DNS replies with the correct IP address. 
 
-The browser initiates an HTTP request: It requests the yummyrecipesforme.com webpage using the IP address sent by the DNS server.
+3. The browser initiates an HTTP request: It requests the yummyrecipesforme.com webpage using the IP address sent by the DNS server.
 
-The browser initiates the download of the malware.
+4. The browser initiates the download of the malware.
 
-The browser initiates a DNS request for greatrecipesforme.com.
+5. The browser initiates a DNS request for greatrecipesforme.com.
 
-The DNS server responds with the IP address for greatrecipesforme.com.
+6. The DNS server responds with the IP address for greatrecipesforme.com.
 
-The browser initiates an HTTP request to the IP address for greatrecipesforme.com.
+7. The browser initiates an HTTP request to the IP address for greatrecipesforme.com.
 
 A senior analyst confirms that the website was compromised. The analyst checks the source code for the website. They notice that javascript code had been added to prompt website visitors to download an executable file. Analysis of the downloaded file found a script that redirects the visitors’ browsers from yummyrecipesforme.com to greatrecipesforme.com. 
 
